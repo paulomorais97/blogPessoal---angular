@@ -7,13 +7,17 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { FeddComponent } from './fedd/fedd.component';
+import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    FeddComponent,
+    PerfilLateralComponent
   ],
   imports: [
     BrowserModule,

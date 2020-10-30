@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <app-perfil-lateral></app-perfil-lateral>
+
+        </div>
+        <div class="col-md-8">
+
+            <h3 class="text-center text-monospace mb-4 ">Como tem sido minha experiência na Generation? </h3>
+
+            <div class="form-group">
+                <label for="titulo" class="text-monospace">Titulo:</label>
+                <input type="text" class="form-control" id="titulo" placeholder="Digite aqui o seu titulo">
+            </div>
+
+            <div class="form-group">
+                <label for="texto" class="text-monospace">Texto:</label>
+                <textarea  id="texto"  rows="3" class="form-control" placeholder="Digite aqui o seu texto"></textarea>
+            </div>
+
+            <div class="row d-flex align-items-end mb-5">
+                <div class="col-md-6">
+                    <div class="form-group m-0">
+                        <label for="tema" class="text-monospace">Escolha um tema ou <a routerLink="/cadastrar-tema">Cadastre um novo</a></label>
+                        <select name="tema" id="tema" class="form-control">
+                            <option>
+                                Teste123
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button class="btn btn-outline-info w-25" type="button"> Publicar</button>
+                </div>
+            </div>
+            <hr class="mt-5 mb-5">
+            
+            <nav class="d-flex justify-content-center">
+                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                     <a href="#minhas-postagens" class="nav-item nav-link active text-secondary font-weight-bold" id="nav-home-tab" data-toggle="tab" role="tab" aria-controls="nav-home" aria-selected="true">Minhas Postagens</a>
+
+                     <a href="#postagens-temas" class="nav-item nav-link text-secondary font-weight-bold" id="nav-profile-tab" data-toggle="tab" role="tab" aria-selected="false" aria-controls="nav-profile">Postagens por tema</a>
+                 </div>
+            </nav>
+
+            <div class="tab-content mt-3 mb-3" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="minhas-postagens" role="tabpanel" aria-labelledby="nav-postagens-tab">
+                    <div class="row">
+                        <div class="col-md-10 pr-0">
+                            <input type="search" class="form-control w-100" placeholder="Pesquisar postagem" aria-label="Pesquisar">
+                        </div>
+                        <div class="col-md-2 pl-0">
+                            <button class="btn btn-outline-warning w-100" type="button">Pesquisar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
