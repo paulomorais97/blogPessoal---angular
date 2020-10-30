@@ -11,7 +11,7 @@ ul.social-network li{
     padding: 5px;
 }
 
-.faLinkedin, .faGithub{
+.faLinkedin, .faGithub, .faFacebook, .faInstagram{
     color:white
 }
 
@@ -22,4 +22,9 @@ ul.social-network li{
 .faGithub:hover{
     color: rgb(105, 49, 101);
 }
-
+.faFacebook:hover{
+color: rgb(11, 101, 204)
+}
+.faInstagram:hover{
+color: rgb(192, 20, 169);
+}

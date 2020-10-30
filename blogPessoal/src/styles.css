@@ -1,1 +1,109 @@
 /* You can add global styles to this file, and also import other style files */
+/* btn-outline-rose*/
+.btn-outline-rose{
+    color: #ed969e !important;
+    border-color: #ed969e !important;
+  }
+  .btn-outline-rose:hover{
+    color: #fff !important;
+    background-color: #ed969e !important;
+    border-color: #ed969e !important;
+    
+  }
+  
+  .btn-outline-rose:focus, .btn-outline-rose.focus{
+    box-shadow: 0 0 0 0.2rem  rgb(219, 188, 209);
+  }
+  .btn-outline-rose.disabled, .btn-outline-rose:disabled {
+    color: #ed969e;
+    background-color: transparent;
+  }
+  .btn-outline-rose:not(:disabled):not(.disabled):active, .btn-outline-rose:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-rose.dropdown-toggle {
+    color: #fff;
+    background-color: #ed969e;
+  }
+  .btn-outline-rose:not(:disabled):not(.disabled):active:focus, .btn-outline-rose:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-rose.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem  rgb(219, 188, 209);
+  }
+/* //btn-outline-rose*/
+
+/* btn-outline-yellow*/
+.btn-outline-yellow {
+    color: #ffc107 !important;
+    border-color: #ffc107 !important;
+  }
+  
+  .btn-outline-yellow:hover {
+    color: #fff !important;
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+  }
+  
+  .btn-outline-yellow:focus, .btn-outline-yellow.focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+  
+  .btn-outline-yellow.disabled, .btn-outline-yellow:disabled {
+    color: #ffc107;
+    background-color: transparent;
+  }
+  
+  .btn-outline-yellow:not(:disabled):not(.disabled):active, .btn-outline-yellow:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-yellow.dropdown-toggle {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .btn-outline-yellow:not(:disabled):not(.disabled):active:focus, .btn-outline-yellow:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-yellow.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
+  }
+/* //btn-outline-yellow*/
+
+/* btn-outline-gray*/
+.btn-outline-gray {
+    color: #17a2b8 !important;
+    border-color: #6c757d !important;
+  }
+  
+  .btn-outline-gray:hover {
+    color: #fff !important;
+    background-color: #6c757d !important;
+    border-color: #6c757d !important;
+  }
+  
+  .btn-outline-gray:focus, .btn-outline-gray.focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  }
+  
+  .btn-outline-gray.disabled, .btn-outline-gray:disabled {
+    color: #6c757d;
+    background-color: transparent;
+  }
+  
+  .btn-outline-gray:not(:disabled):not(.disabled):active, .btn-outline-gray:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-outline-gray:not(:disabled):not(.disabled):active:focus, .btn-outline-gray:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-gray.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+  }
+/* //btn-outline-gray*/  
+/* textos*/
+.text-none{
+   text-decoration: none !important;
+}
+.fs-18{
+  font-size: 18px;
+}
+
+
+
+/* //textos*/

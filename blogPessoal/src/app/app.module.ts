@@ -7,8 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { FeddComponent } from './fedd/fedd.component';
 import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.component';
+import { FeedComponent } from './feed/feed.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +16,8 @@ import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.componen
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    FeddComponent,
-    PerfilLateralComponent
+    PerfilLateralComponent,
+    FeedComponent
   ],
   imports: [
     BrowserModule,
