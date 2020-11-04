@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 /* btn-outline-rose*/
+
+body{
+  background-color:  rgb(220, 243, 247) !important;
+}
+.fundo{
+  background-color: rgb(220, 243, 247) !important;
+}
 .btn-outline-rose{
     color: #ed969e !important;
     border-color: #ed969e !important;
@@ -96,6 +103,41 @@
     box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
   }
 /* //btn-outline-gray*/  
+
+/* btn-outline-blue*/
+.btn-outline-blue {
+  color:#7192ec !important;
+  border-color:  #7192ec !important;
+}
+
+.btn-outline-blue:hover {
+  color: #fff !important;
+  background-color:  #7192ec!important;
+  border-color:#7192ec !important;
+}
+
+.btn-outline-blue:focus, .btn-outline-blue.focus {
+  box-shadow: 0 0 0 0.2rem rgba(110, 166, 216, 0.5);
+}
+
+.btn-outline-blue.disabled, .btn-outline-blue:disabled {
+  color: #8dc7fa;
+  background-color: transparent;
+}
+
+.btn-outline-blue:not(:disabled):not(.disabled):active, .btn-outline-blue:not(:disabled):not(.disabled).active,
+.show > .btn-outline-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #8dc7fa;
+  border-color: #8dc7fa;
+}
+
+.btn-outline-blue:not(:disabled):not(.disabled):active:focus, .btn-outline-blue:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-blue.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(110, 166, 216, 0.5);
+}
+/* // btn-outline-blue*/
+
 /* textos*/
 .text-none{
    text-decoration: none !important;
@@ -103,6 +145,7 @@
 .fs-18{
   font-size: 18px;
 }
+
 
 
 
