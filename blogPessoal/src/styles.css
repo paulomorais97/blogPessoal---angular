@@ -2,10 +2,10 @@
 /* btn-outline-rose*/
 
 body{
-  background-color:  rgb(220, 243, 247) !important;
+  background-color:  rgb(245, 247, 220) !important;
 }
 .fundo{
-  background-color: rgb(220, 243, 247) !important;
+  background-color:  rgb(245, 247, 220) !important;
 }
 .btn-outline-rose{
     color: #ed969e !important;
@@ -142,11 +142,25 @@ body{
 .text-none{
    text-decoration: none !important;
 }
+.text-gold{
+  color: rgb(145, 148, 102);
+}
 .fs-18{
   font-size: 18px;
 }
+.seta{
+  position: fixed !important;
+  top: 72% !important;
+  left: 1% !important;
+  padding: 10px !important;
+  z-index: 10000000 !important;
 
-
-
-
+}
+.borda{
+  
+  border-color: rgba(110, 166, 216, 0.5);
+}
+a{
+  cursor: pointer !important;
+}
 /* //textos*/
