@@ -1,5 +1,5 @@
 .paralax{
-     background-image: url(https://images.pexels.com/photos/285814/pexels-photo-285814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+     background-image: url(https://i.imgur.com/NepipKm.jpg);
      min-height: 500px;
 
      background-attachment: fixed;
@@ -7,4 +7,21 @@
      background-repeat: no-repeat;
      background-size: cover;
 
+}
+
+.jumb{
+     background:rgb(63, 136, 165) !important;
+   background: linear-gradient(1deg, rgb(100, 142, 173) 10%, rgb(66, 75, 126) 90%) !important;
+   }
+.borda{
+     border-color: rgb(26, 128, 168) !important;
+}
+
+
+.radio{
+     border-radius: 50% !important;
+}
+
+.text-brush{
+font-family: Brush Script MT;
 }

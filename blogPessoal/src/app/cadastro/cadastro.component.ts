@@ -38,8 +38,6 @@ export class CadastroComponent implements OnInit {
     }else{
       alert('Suas senhas não conferem')
     }
-
-
     
   }
 

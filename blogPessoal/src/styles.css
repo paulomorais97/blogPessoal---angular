@@ -1,12 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
-/* btn-outline-rose*/
+
 
 body{
-  background-color:  rgb(245, 247, 220) !important;
+  background:rgb(28, 69, 85) !important;
+   background: linear-gradient(1deg, rgb(56, 86, 109) 10%, rgb(121, 162, 194) 90%) !important;
 }
+
 .fundo{
-  background-color:  rgb(245, 247, 220) !important;
+  background-color:  rgb(121, 162, 194) !important;
 }
+/* btn-outline-rose*/
 .btn-outline-rose{
     color: #ed969e !important;
     border-color: #ed969e !important;
@@ -138,24 +141,44 @@ body{
 }
 /* // btn-outline-blue*/
 
-/* textos*/
-.text-none{
-   text-decoration: none !important;
+/* btn-outline-white*/
+.btn-outline-white{
+  color: #ffffff !important;
+  border-color: #ffffff !important;
 }
+.btn-outline-white:hover{
+  color: #fff !important;
+  background-color: #f0b255 !important;
+  border-color: #f0b255 !important;
+  
+}
+
+.btn-outline-white:focus, .btn-outline-white.focus{
+  box-shadow: 0 0 0 0.2rem rgb(240, 213, 140);
+}
+.btn-outline-white.disabled, .btn-outline-white:disabled {
+  color: #f0b255;
+  background-color: transparent;
+}
+.btn-outline-white:not(:disabled):not(.disabled):active, .btn-outline-white:not(:disabled):not(.disabled).active,
+.show > .btn-outline-white.dropdown-toggle {
+  color: #fff;
+  background-color:#f0b255;
+}
+.btn-outline-white:not(:disabled):not(.disabled):active:focus, .btn-outline-white:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-white.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem  rgb(240, 213, 140);
+}
+/* //btn-outline-white*/
+/* textos*/
+
 .text-gold{
   color: rgb(145, 148, 102);
 }
 .fs-18{
   font-size: 18px;
 }
-.seta{
-  position: fixed !important;
-  top: 72% !important;
-  left: 1% !important;
-  padding: 10px !important;
-  z-index: 10000000 !important;
 
-}
 .borda{
   
   border-color: rgba(110, 166, 216, 0.5);
@@ -164,3 +187,8 @@ a{
   cursor: pointer !important;
 }
 /* //textos*/
+/* Background*/
+.transparente{
+  background-color:rgba(0, 0, 0, 0) !important;
+}
+/* //Background*/

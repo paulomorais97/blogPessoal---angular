@@ -28,3 +28,12 @@ color: rgb(11, 101, 204)
 .faInstagram:hover{
 color: rgb(192, 20, 169);
 }
+
+.fundo{
+    background:rgb(27, 49, 82) !important;
+    background: linear-gradient(1deg, rgb(29, 42, 51) 10%,  rgb(36, 74, 102) 90%) !important;
+}
+.fundoCopy{
+    background:rgb(27, 49, 82) !important;
+    background: linear-gradient(1deg, rgb(67, 95, 116) 10%,  rgb(57, 84, 102) 90%) !important;
+}

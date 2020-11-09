@@ -1,0 +1,37 @@
+
+.btn-outline-light2 {
+    color: #ffffff !important;
+    border-color: #90a7be !important;
+  }
+  
+  .btn-outline-light2:hover {
+    color: #2b71b8 !important;
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+  }
+  
+  .btn-outline-light2:focus, .btn-outline-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5) !important;
+  }
+  
+  .btn-outline-light2.disabled, .btn-outline-light2:disabled {
+    color: #f8f9fa !important;
+    background-color: transparent !important;
+  }
+  
+  .btn-outline-light2:not(:disabled):not(.disabled):active, .btn-outline-light2:not(:disabled):not(.disabled).active,
+  .show > .btn-outline-light2.dropdown-toggle {
+    color: #212529 !important;
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+  }
+  
+  .btn-outline-light2:not(:disabled):not(.disabled):active:focus, .btn-outline-light2:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-outline-light2.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5) !important;
+  }
+  /*
+  FINAL DO LIGHT
+  
+  
+  */

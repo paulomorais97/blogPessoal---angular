@@ -2,3 +2,10 @@
     letter-spacing: .2rem;
     font-size: 16pt;
 }
+.text{
+
+color: #f0b255;
+}
+.text-courier{
+    font-family: 'Courier New';
+}

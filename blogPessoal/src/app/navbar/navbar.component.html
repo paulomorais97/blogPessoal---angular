@@ -1,6 +1,6 @@
 
 <div class="container-fluid d-flex justify-content-center ">
-    <nav class="navbar navbar-expand-lg fundo ">
+    <nav class="navbar navbar-expand-lg transparente ">
     
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
@@ -16,25 +16,25 @@
                   https://24.media.tumblr.com/tumblr_mcm1ec68fN1qfqgb9o1_1280.gif
                   https://i.pinimg.com/originals/df/8e/36/df8e36f90e6a20167f071ed1b6c10e50.gif-->
                 <li class="nav-item "> 
-                  <a class="nav-link texto text-uppercase text-monospace font-weight-bold p-3 text-gold " routerLink='/home'>Home <span class="sr-only border border-secondary">(página atual)</span></a>
+                  <a class="nav-link texto text-uppercase text-courier font-weight-bold p-3 text " routerLink='/home'>Home <span class="sr-only border border-secondary">(página atual)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link texto text-uppercase text-monospace font-weight-bold p-3 text-gold" routerLink='/feed'>Feed</a>
+                  <a class="nav-link texto text-uppercase text-courier font-weight-bold p-3 text" routerLink='/feed'>Feed</a>
                 </li>
                 <div *ngIf='auth.btnLogin()'>
                   <li class="nav-item">
-                    <a class="nav-link texto text-uppercase text-monospace font-weight-bold p-3 text-gold" routerLink='/login'>Login</a>
+                    <a class="nav-link texto text-uppercase text-courier font-weight-bold p-3 text" routerLink='/login'>Login</a>
                   </li>
                 </div>
                 <div *ngIf='auth.btnLogin()'>
                   <li class="nav-item">
-                    <a class="nav-link texto text-uppercase text-monospace font-weight-bold p-3 text-gold" routerLink='/cadastro'>Cadastrar</a>
+                    <a class="nav-link texto text-uppercase text-courier font-weight-bold p-3 text" routerLink='/cadastro'>Cadastrar</a>
                   </li>
                 </div>
                 
                 <div *ngIf='auth.btnSair()'>
                   <li class="nav-item">
-                    <a class="nav-link texto text-uppercase text-monospace font-weight-bold p-3 text-gold" (click)='sair()'>Sair</a>
+                    <a class="nav-link texto text-uppercase text-courier  font-weight-bold p-3 text" (click)='sair()'>Sair</a>
                   </li>
                 </div>
                 
