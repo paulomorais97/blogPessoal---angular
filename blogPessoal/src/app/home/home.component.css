@@ -16,6 +16,9 @@
 .borda{
      border-color: rgb(26, 128, 168) !important;
 }
+.radius{
+     border-radius:5% !important ;
+}
 
 
 .radio{
@@ -24,4 +27,11 @@
 
 .text-brush{
 font-family: Brush Script MT;
+}
+.text{
+     color:#597dc0 ;
+}
+.text2{
+     color: rgb(36, 74, 102);
+     font-size: 26pt;
 }
