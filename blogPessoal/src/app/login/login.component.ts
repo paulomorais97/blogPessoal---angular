@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserLogin } from '../model/UserLogin';
+import { AlertasService } from '../service/alertas.service';
 import { AuthService } from '../service/auth.service';
 
 @Component({
@@ -14,7 +15,8 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private authService:  AuthService,
-    private router: Router
+    private router: Router,
+    private alert: AlertasService
   ) { }
 
   ngOnInit() {
@@ -26,7 +28,7 @@ this.authService.logar(this.userLogin).subscribe((resp: UserLogin) =>{
   this.userLogin = resp
   localStorage.setItem('token', this.userLogin.token)
   this.router.navigate(['/feed'])
-  alert('Seja bem-vindo(a)')
+  this.alert.showAlertInfo('Seja bem-vindo(a)')
 })
   }
 }
